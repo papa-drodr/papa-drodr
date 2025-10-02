@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>소환사 검색</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 10px; width: 300px; }
+        button { padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>리그 오브 레전드 소환사 검색</h1>
+    <form action="/search" method="GET">
+        <input type="text" name="riot_id" placeholder="Riot ID를 입력하세요 (예: 닉네임#태그)" required>
+        <button type="submit">검색</button>
+    </form>
+</body>
+</html>
